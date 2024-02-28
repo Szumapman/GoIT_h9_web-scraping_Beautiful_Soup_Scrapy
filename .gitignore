@@ -150,3 +150,10 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
+
+# Ignore the following data files
+goit_h9_web_scraping_beautiful_soup_scrapy/data/authors.json
+goit_h9_web_scraping_beautiful_soup_scrapy/data/quotes.json
+
+# Ignore the following config files
+goit_h9_web_scraping_beautiful_soup_scrapy/packages_from_homework_\#8/config_dev.ini
