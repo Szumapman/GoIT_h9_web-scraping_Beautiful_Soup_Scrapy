@@ -1,12 +1,12 @@
 import sys
-from pathlib import Path
+from os import path
 
 from mongoengine import connect
 from pymongo.errors import ConfigurationError
 import configparser
 
 config = configparser.ConfigParser()
-config_path = "config_dev.ini"
+config_path = path.join("packages_from_homework_8", "config_dev.ini")
 config.read(config_path)
 
 mongo_user = config.get("DB", "user")
