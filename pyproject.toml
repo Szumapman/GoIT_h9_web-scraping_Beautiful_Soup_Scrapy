@@ -12,6 +12,7 @@ requests = "^2.31.0"
 beautifulsoup4 = "^4.12.3"
 pymongo = "^4.6.2"
 mongoengine = "^0.27.0"
+scrapy = "^2.11.1"
 
 
 [tool.poetry.group.dev.dependencies]
