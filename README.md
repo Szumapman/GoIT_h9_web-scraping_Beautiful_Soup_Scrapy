@@ -11,7 +11,7 @@ Poprzednie zadanie domowe powinno działać poprawnie z nowo otrzymaną bazą da
 Do scrapingu użyj frameworka **Scrapy**. Crawler powinien zostać uruchomiony jako pojedynczy skrypt `main.py`.
 
 > [!NOTE]
-> Zadanie wykonane zarówno dla biblioteki **BeautifulSoup** (plik: `main_bs.py`), jak i przy uzyciu frameworku **Scrapy** (plik: `main_scrapy.py`).
+> Zadanie wykonane zarówno dla biblioteki **BeautifulSoup** (plik: `main_bs.py`), jak i przy uzyciu frameworku **Scrapy** (plik: `main_scrapy.py` oraz `main_scrapy_one_crawler.py`).
 > Niezbędne pliki z zadania 8, dodane do projektu w katalogu: `packages_from_homework_8` dla łatwiejszego przetestowania rozwiązania.
 
 > [!WARNING]
