@@ -17,7 +17,7 @@ Do scrapingu użyj frameworka **Scrapy**. Crawler powinien zostać uruchomiony j
 
 > [!WARNING]
 > W celu poprawnego działania wysyłania danych do bazy danych,
-> przed uzyciem należy uzupełnić plik config.ini danymi pozwalającymi na pracę z bazą `MongoDB`
+> przed użyciem należy uzupełnić plik config.ini danymi pozwalającymi na pracę z bazą `MongoDB`
 >``` 
 > USER = <wpisz nazwę użytkownika>
 > PASS = <wpisz hasło użytkownika>
