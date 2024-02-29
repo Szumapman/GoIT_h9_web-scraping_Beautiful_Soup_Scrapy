@@ -23,7 +23,7 @@ Do scrapingu użyj frameworka **Scrapy**. Crawler powinien zostać uruchomiony j
 > DB_NAME = <wpisz nazwę bazy danych>
 > DOMAIN = <wpisz nazwę domeny>
 >```
-> lub wykomentować / usunąć poniższe fragmenty funkcji `main()`, z plików `main_bs.py` i `main_scrapy.py`, aby nie uploadować danych do bazy:
+> lub wykomentować / usunąć poniższe fragmenty funkcji `main()`, z plików `main_bs.py`, `main_scrapy.py` i `main_scrapy_one_crawler.py`, aby nie uploadować danych do bazy:
 >
 > ``` Python
 > print("Seeding data in database using packages from homework #8...")
@@ -31,4 +31,7 @@ Do scrapingu użyj frameworka **Scrapy**. Crawler powinien zostać uruchomiony j
 > quotes = load_json_data("data/quotes.json")
 > data_seed(authors, quotes)
 > ```
-
+> oraz wykomentować / usunąć linię:
+> ``` Python
+> from packages_from_homework_8.seed import load_json_data, data_seed
+> ```
